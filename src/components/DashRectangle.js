@@ -5,10 +5,12 @@ class DashRectangle extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      currentDateTime: Date().toLocaleString(),
       ingresos : props.ingresos,
       efectivo : props.efectivo,
       prodMenu : props.prodMenu,
-      mesasOcupadas : props.mesasOcupadas
+      mesasOcupadas : props.mesasOcupadas,
+      usuario : props.usuario
     }
   }
 
@@ -16,8 +18,8 @@ class DashRectangle extends React.Component {
     return(
       <div className="rectangles">
         <div className= "usertext">
-        <h3>Hola Usuario</h3>
-        <h1>Actual date</h1>
+        <h3>Hola, {this.state.usuario}</h3>
+        <h1>{this.state.currentDateTime}</h1>
         </div>
         <div className= "rectanglered">
         <h3>Ingresos de hoy</h3>

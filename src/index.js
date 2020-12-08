@@ -10,4 +10,5 @@ ReactDOM.render(<DashRectangle
                     efectivo = "1250.50"
                     prodMenu = "25"
                     mesasOcupadas = "18"
+                    usuario = "Nombre Apellido"
                   />, container);
