@@ -4,12 +4,6 @@
 .rectangles .rectanglered {
   position: absolute;
   box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
       opacity: 1;
       cursor: default;
       margin-top: 0.00px;
@@ -49,36 +43,30 @@
   transition: all .3s ease-in-out;
   -ms-transform: scale(1.05); /* IE 9 */
   -webkit-transform: scale(1.05); /* Safari 3-8 */
-  transform: scale(1.05); 
-  
+  transform: scale(1.05);
+
 }
 .rectangles .rectanglegreen:hover {
   transition: all .3s ease-in-out;
   -ms-transform: scale(1.05); /* IE 9 */
   -webkit-transform: scale(1.05); /* Safari 3-8 */
-  transform: scale(1.05); 
+  transform: scale(1.05);
 }
 .rectangles .rectangleorange:hover {
   transition: all .3s ease-in-out;
   -ms-transform: scale(1.05); /* IE 9 */
   -webkit-transform: scale(1.05); /* Safari 3-8 */
-  transform: scale(1.05); 
+  transform: scale(1.05);
 }
 .rectangles .rectanglecyan:hover {
   transition: all .3s ease-in-out;
   -ms-transform: scale(1.05); /* IE 9 */
   -webkit-transform: scale(1.05); /* Safari 3-8 */
-  transform: scale(1.05); 
+  transform: scale(1.05);
 }
 
 .rectangles h3 {
       box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
       opacity: 1;
       cursor: default;
       margin-top: 0.00px;
@@ -112,12 +100,6 @@
 
 .rectangles h1 {
     box-sizing: content-box;
-    -ms-transform: rotate(0.00deg);
-  -webkit-transform: rotate(0.00deg);
-  transform: rotate(0.00deg);
-  -ms-transform-origin: center;
-  -webkit-transform-origin: center;
-  transform-origin: center;
     opacity: 1;
     cursor: default;
     margin-top: 0.00px;
@@ -152,12 +134,6 @@
 .rectangles .rectanglegreen {
   position: absolute;
     box-sizing: content-box;
-    -ms-transform: rotate(0.00deg);
-  -webkit-transform: rotate(0.00deg);
-  transform: rotate(0.00deg);
-  -ms-transform-origin: center;
-  -webkit-transform-origin: center;
-  transform-origin: center;
     opacity: 1;
     cursor: default;
     margin-top: 0.00px;
@@ -197,12 +173,6 @@
 .rectangles .rectangleorange {
   position: absolute;
     box-sizing: content-box;
-    -ms-transform: rotate(0.00deg);
-  -webkit-transform: rotate(0.00deg);
-  transform: rotate(0.00deg);
-  -ms-transform-origin: center;
-  -webkit-transform-origin: center;
-  transform-origin: center;
     opacity: 1;
     cursor: default;
     margin-top: 0.00px;
@@ -242,12 +212,6 @@
 .rectangles .rectanglecyan {
   position: absolute;
     box-sizing: content-box;
-    -ms-transform: rotate(0.00deg);
-  -webkit-transform: rotate(0.00deg);
-  transform: rotate(0.00deg);
-  -ms-transform-origin: center;
-  -webkit-transform-origin: center;
-  transform-origin: center;
     opacity: 1;
     cursor: default;
     margin-top: 0.00px;
