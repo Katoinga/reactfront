@@ -15,6 +15,10 @@ class DashRectangle extends React.Component {
   render(){
     return(
       <div className="rectangles">
+        <div className= "usertext">
+        <h3>Hola Usuario</h3>
+        <h1>Actual date</h1>
+        </div>
         <div className= "rectanglered">
         <h3>Ingresos de hoy</h3>
         <h1>{this.state.ingresos}</h1>
