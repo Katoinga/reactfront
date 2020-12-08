@@ -1,0 +1,200 @@
+.contLogin{
+    position: absolute;
+      box-sizing: content-box;
+      -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      margin-top: 0.00px;
+      margin-right: 0.00px;
+      margin-bottom: 0.00px;
+      margin-left: 0.00px;
+      padding-top: 0.00px;
+      padding-right: 0.00px;
+      padding-bottom: 0.00px;
+      padding-left: 0.00px;
+      background-color: rgba(255, 255, 255, 1);
+      border-bottom-color: rgba(112, 112, 112, 1);
+      border-bottom-style: none;
+      border-bottom-width: 1.00px;
+      border-left-color: rgba(112, 112, 112, 1);
+      border-left-style: none;
+      border-left-width: 1.00px;
+      border-right-color: rgba(112, 112, 112, 1);
+      border-right-style: none;
+      border-right-width: 1.00px;
+      border-top-color: rgba(112, 112, 112, 1);
+      border-top-style: none;
+      border-top-width: 1.00px;
+      border-top-left-radius: 10.00px;
+      border-top-right-radius: 10.00px;
+      border-bottom-left-radius: 10.00px;
+      border-bottom-right-radius: 10.00px;
+      -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.1607843137254902));
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.1607843137254902));
+      width: 300.00px;
+    height: 450.00px;
+    left: 533.00px;
+    top: 89.00px;
+}
+
+.contLogin h3{
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      margin-top: 15.00px;
+      margin-left: 8.00px;
+      text-align: left;
+      letter-spacing: 0.00px;
+      -webkit-text-stroke: unset;
+      font-size: 19.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: Nunito, Arial;
+      text-decoration: none;
+      box-shadow: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 161.00px;
+    height: 15.00px;
+    left: 553.00px;
+    top: 105.00px;
+
+}
+
+.contLogin h1 {
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      margin-top: 5.00px;
+      margin-bottom: 0.00px;
+      margin-left: 8.00px;
+      text-align: left;
+      letter-spacing: 0.00px;
+      -webkit-text-stroke: unset;
+      font-size: 40.00px;
+      font-weight: 700;
+    font-style: normal;
+      font-family: Nunito, Arial;
+      text-decoration: none;
+      box-shadow: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 167.00px;
+    height: 32.00px;
+    left: 553.00px;
+    top: 121.00px;
+}
+.contLogin label{
+      box-sizing: content-box;
+      opacity: 1;
+      margin-top: 10.00px;
+      margin-right: 0.00px;
+      margin-bottom: 10.00px;
+      margin-left: 15.00px;
+
+      text-align: left;
+      letter-spacing: 0.00px;
+      font-size: 15.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: Nunito, Arial;
+      text-decoration: none;
+      box-shadow: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 99.00px;
+    height: 15.00px;
+    left: 553.00px;
+    top: 256.00px;
+}
+
+.contLogin .logoImage {
+      box-sizing: content-box;
+      opacity: 1;
+      cursor: default;
+      margin-top: 25.00px;
+      margin-right: 0.00px;
+      margin-bottom: 10.00px;
+      margin-left: 50.00px;
+      width: 190.55px;
+    height: 79.00px;
+    left: 610.00px;
+    top: 159.00px;
+
+}
+
+.contLogin input {
+      box-sizing: border-box;
+      opacity: 1;
+      cursor: default;
+      margin-top: 0.00px;
+      margin-right: 0.00px;
+      margin-bottom: 8.00px;
+      margin-left: 15.00px;
+
+      background-color: rgba(255, 255, 255, 1);
+      border-bottom-color: rgba(112, 112, 112, 1);
+      border-bottom-style: solid;
+      border-bottom-width: 1.00px;
+      border-left-color: rgba(112, 112, 112, 1);
+      border-left-style: solid;
+      border-left-width: 1.00px;
+      border-right-color: rgba(112, 112, 112, 1);
+      border-right-style: solid;
+      border-right-width: 1.00px;
+      border-top-color: rgba(112, 112, 112, 1);
+      border-top-style: solid;
+      border-top-width: 1.00px;
+      border-top-left-radius: 0.00px;
+      border-top-right-radius: 0.00px;
+      border-bottom-left-radius: 0.00px;
+      border-bottom-right-radius: 0.00px;
+      box-shadow: none;
+      width: 260.00px;
+      height: 40.00px;
+      left: 553.00px;
+      top: 351.00px;
+
+}
+
+.contLogin .loginButton{
+      box-sizing: content-box;
+      opacity: 1;
+      margin-top: 20.00px;
+      margin-left:15.00px;
+      background-color: rgba(255, 81, 81, 1);
+      border-bottom-color: rgba(112, 112, 112, 1);
+      border-bottom-style: none;
+      border-bottom-width: 1.00px;
+      border-left-color: rgba(112, 112, 112, 1);
+      border-left-style: none;
+      border-left-width: 1.00px;
+      border-right-color: rgba(112, 112, 112, 1);
+      border-right-style: none;
+      border-right-width: 1.00px;
+      border-top-color: rgba(112, 112, 112, 1);
+      border-top-style: none;
+      border-top-left-radius: 30.00px;
+      border-top-right-radius: 30.00px;
+      border-bottom-left-radius: 30.00px;
+      border-bottom-right-radius: 30.00px;
+      width: 260.00px;
+    height: 40.00px;
+    left: 553.00px;
+    top: 451.00px;
+
+}
