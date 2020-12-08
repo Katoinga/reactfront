@@ -1,4 +1,4 @@
-.rectangle3 {
+.rectanglered {
       box-sizing: content-box;
       -ms-transform: rotate(0.00deg);
     -webkit-transform: rotate(0.00deg);
@@ -42,7 +42,7 @@
 
 }
 
-.rectangle3 h3 {
+.rectanglered h3 {
       box-sizing: content-box;
       -ms-transform: rotate(0.00deg);
     -webkit-transform: rotate(0.00deg);
@@ -56,10 +56,10 @@
       margin-right: 0.00px;
       margin-bottom: 0.00px;
       margin-left: 0.00px;
-      padding-top: 0.00px;
+      padding-top: 5.00px;
       padding-right: 0.00px;
       padding-bottom: 0.00px;
-      padding-left: 0.00px;
+      padding-left: 5.00px;
       background-color: rgba(255, 255, 255, 0);
       text-align: left;
       letter-spacing: 0.00px;
@@ -78,5 +78,44 @@
     height: 24.00px;
     left: 21.00px;
     top: 109.00px;
+
+}
+
+.rectanglered h1 {
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 5.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 10.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: left;
+    letter-spacing: 0.00px;
+    color: rgba(255, 255, 255, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 24.00px;
+    font-weight: 700;
+  font-style: normal;
+    font-family: Nunito, Arial;
+    text-decoration: none;
+    box-shadow: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    white-space: pre;
+    width: 115.00px;
+  height: 32.00px;
+  left: 68.00px;
+  top: 133.00px;
 
 }

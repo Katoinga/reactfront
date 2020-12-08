@@ -1,12 +1,12 @@
 import React from 'react';
-import './styles/aDashRectangle.css';
+import './styles/DashRectangle.css';
 
 class aDashRectangle extends React.Component {
   render(){
     return(
-      <div className="rectangle3">
+      <div className="rectanglered">
         <h3>algo</h3>
-
+        <h1>algo</h1>
       </div>
     )
   }
