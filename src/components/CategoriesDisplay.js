@@ -5,6 +5,34 @@ import './styles/CategoriesDisplay.css';
 
 class CategoriesDisplay extends React.Component {
 
+  constructor(props){
+    super(props);
+    this.state = {
+      data:[{
+        title       : "Todos",
+        quantity    : "500",
+        description : "Lista de todos los platos del sistema",
+        image :       "../images/logo.png"
+      },{
+        title       : "Todos",
+        quantity    : "500",
+        description : "Lista de todos los platos del sistema",
+        image :       "../images/logo.png"
+      },{
+        title       : "Todos",
+        quantity    : "500",
+        description : "Lista de todos los platos del sistema",
+        image :       "../images/logo.png"
+      },{
+        title       : "Todos",
+        quantity    : "500",
+        description : "Lista de todos los platos del sistema",
+        image :       "../images/logo.png"
+      }
+      ]
+    }
+  }
+
   render() {
     return (
       <div className="containerCategories">
@@ -13,10 +41,16 @@ class CategoriesDisplay extends React.Component {
           <p>Selecciona una categoria para ver los productos</p>
         </div>
         <div className="categoriesList">
-          <Category title="Todos" quantity="500" description="Lista de todos los platos del sistema" image="../images/logo.png"></Category>
-          <Category title="Todos" quantity="500" description="Lista de todos los platos del sistema" image="../images/logo.png"></Category>
-          <Category title="Todos" quantity="500" description="Lista de todos los platos del sistema" image="../images/logo.png"></Category>
-          <Category title="Todos" quantity="500" description="Lista de todos los platos del sistema" image="../images/logo.png"></Category>
+        {this.state.data.map((item) =>{
+          return(
+            <Category
+              title={item.title}
+              quantity={item.quantity}
+              description={item.description}
+              image={item.image}
+            />
+          )
+        })}
         </div>
         <div className="buttonNew">
           <img className="iconNewCategory"></img>
