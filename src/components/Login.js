@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles/Login.css';
 import logoImage from '../images/logo.png'
+import { Link } from 'react-router-dom';
 
 class Login extends React.Component {
   render(){
@@ -14,7 +15,9 @@ class Login extends React.Component {
           <input type="text"></input><br></br>
           <label>* Contraseña</label><br></br>
           <input type="password"></input><br></br>
+          <Link to="/admin/dashboard">
           <button className="loginButton">INGRESAR</button>
+          </Link>
         </form>
       </div>
     )
