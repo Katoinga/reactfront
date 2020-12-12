@@ -7,6 +7,8 @@ class AdminEstadisticasPage extends React.Component {
     return (
       <div className="sidebar">
         <DashSidebar/>
+        <DashTopBar color="selectbutton-cyan"/>
+
       </div>
     )
   }

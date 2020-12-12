@@ -7,6 +7,8 @@ class AdminEditarCuPage extends React.Component {
     return (
       <div className="sidebar">
         <DashSidebar/>
+        <DashTopBar color="selectbutton-purple"/>
+
       </div>
     )
   }

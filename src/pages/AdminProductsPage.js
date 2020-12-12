@@ -7,6 +7,8 @@ class AdminProductsPage extends React.Component {
     return (
       <div className="sidebar">
         <DashSidebar />
+        <DashTopBar color="selectbutton-yellow"/>
+
       </div>
     )
   }

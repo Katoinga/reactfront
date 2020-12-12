@@ -7,6 +7,8 @@ class AdminPersonalPage extends React.Component {
     return (
       <div className="sidebar">
         <DashSidebar/>
+        <DashTopBar color="selectbutton-orange"/>
+
       </div>
     )
   }
