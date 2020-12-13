@@ -11,14 +11,24 @@ class DashPersonal extends React.Component {
       data:[{
         "codigo" : "2",
         "nombres" : "Paco",
-        "apellidos" : "Gerte",
+        "apellidos" : "Sanchez",
         "dni" : "78648524",
         "celular" : "7896587458",
         "direccion" : "Av. Paquitos",
         "sueldo" : "1260.30",
         "rol" : "Admin",
         "estado" : "Inactivo"
-            }
+      },{
+        "codigo" : "2",
+        "nombres" : "Paco",
+        "apellidos" : "Sanchez",
+        "dni" : "78648524",
+        "celular" : "7896587458",
+        "direccion" : "Av. Paquitos",
+        "sueldo" : "1260.30",
+        "rol" : "Admin",
+        "estado" : "Inactivo"
+      }
       ]
     }
   }
@@ -42,7 +52,7 @@ class DashPersonal extends React.Component {
 
        <div className="tablePersonal">
           <table>
-          <tr>
+          <tr className="headerTable">
             <th>Codigo</th>
             <th>Nombres</th>
             <th>Apellidos</th>

@@ -22,10 +22,10 @@
       overflow-x: unset;
       overflow-y: unset;
       background-color: transparent;
-      width: 300.00px;
-    height: 522.00px;
-    left: 0.00px;
-    top: 22.00px;
+      width: 400.00px;
+    height: 750.00px;
+    left: 250.00px;
+    top: 50.00px;
 }
 .containerCategories .title h3{
       box-sizing: content-box;
@@ -76,7 +76,7 @@
     transform-origin: center;
       opacity: 1;
       cursor: default;
-      margin-top: 0.00px;
+      margin-top: -3.00px;
       margin-right: 0.00px;
       margin-bottom: 10.00px;
       margin-left: 0.00px;

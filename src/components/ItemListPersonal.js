@@ -18,7 +18,7 @@ class ItemListPersonal extends React.Component {
 
   render(){
     return(
-      <tr>
+      <tr className="dataTable">
         <th>{this.state.codigo}</th>
         <th>{this.state.nombres}</th>
         <th>{this.state.apellidos}</th>

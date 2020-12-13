@@ -1,6 +1,7 @@
 import React from 'react';
 import DashSidebar from '../components/DashSidebar.js';
 import DashTopBar from '../components/DashTopBar.js';
+import DashPersonal from '../components/DashPersonal.js';
 
 class AdminPersonalPage extends React.Component {
   render() {
@@ -11,9 +12,9 @@ class AdminPersonalPage extends React.Component {
                       color3="boton-personal"
                       color4="boton"
                       color5="boton"
-                      /> 
+                      />
         <DashTopBar color="selectbutton-orange"/>
-
+        <DashPersonal/>
       </div>
     )
   }

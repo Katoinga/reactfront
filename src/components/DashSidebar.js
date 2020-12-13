@@ -12,6 +12,8 @@ class DashSidebar extends React.Component {
       color3 : props.color3,
       color4 : props.color4,
       color5 : props.color5,
+      name: props.name,
+      role: props.role
     }
   }
   render(){
@@ -19,7 +21,9 @@ class DashSidebar extends React.Component {
       <div className="sidebar">
         <div className="sidemenu">
           <div className="buttonCerrarS">
+            <Link to='/admin/login'>
             <button className="boton">Cerrar Sesion</button>
+            </Link>
             <svg data-layer="312903e7-a1df-43ec-8be7-998127d3b700" preserveAspectRatio="none" viewBox="4.5 4.5 18 18" class="icon"><path d="M 11.59000015258789 17.09000015258789 L 13 18.5 L 18 13.5 L 13 8.5 L 11.59000015258789 9.909999847412109 L 14.17000007629395 12.5 L 4.5 12.5 L 4.5 14.5 L 14.17000102996826 14.5 L 11.59000110626221 17.09000015258789 Z M 20.5 4.5 L 6.5 4.5 C 5.390000343322754 4.5 4.5 5.400000095367432 4.5 6.5 L 4.5 10.5 L 6.5 10.5 L 6.5 6.5 L 20.5 6.5 L 20.5 20.5 L 6.5 20.5 L 6.5 16.5 L 4.5 16.5 L 4.5 20.5 C 4.5 21.60000038146973 5.390000343322754 22.5 6.5 22.5 L 20.5 22.5 C 21.60000038146973 22.5 22.5 21.60000038146973 22.5 20.5 L 22.5 6.5 C 22.5 5.400000095367432 21.60000038146973 4.5 20.5 4.5 Z"  /></svg>
           </div>
           <div className="dividerSesion">
@@ -39,8 +43,8 @@ class DashSidebar extends React.Component {
           <h6>Configuración de la cuenta</h6>
           <svg data-layer="55993d6a-3277-45a3-ba7d-bdb2e0acdef9" preserveAspectRatio="none" viewBox="4.5 1.5 8 9.77777099609375" class="iconMaterialVerifiedUser4fe173a5"><path d="M 8.5 1.5 L 4.5 3.277777910232544 L 4.5 5.94444465637207 C 4.5 8.411111831665039 6.206666946411133 10.71777820587158 8.5 11.27777767181396 C 10.79333305358887 10.71777820587158 12.5 8.411111831665039 12.5 5.94444465637207 L 12.5 3.277777910232544 L 8.5 1.5 Z M 7.611111640930176 8.611111640930176 L 5.833333492279053 6.833333015441895 L 6.460000038146973 6.206666946411133 L 7.611111640930176 7.353333473205566 L 10.53999996185303 4.424444198608398 L 11.16666698455811 5.05555534362793 L 7.611111640930176 8.611111640930176 Z"  /></svg>
           </div>
-          <p>Administrador</p>
-          <label className="labelname">AQUI Nombre</label>
+          <p>{this.state.role}</p>
+          <label className="labelname">{this.state.name}</label>
           <img className="elipse" src={logoImage}></img>
           <div className="dividerCuenta">
           <svg data-layer="ee44a805-97f8-4087-94cb-39e0106cfbb6" preserveAspectRatio="none" viewBox="-0.75 -0.75 196.5 1.5" class="line"><path d="M 0 0 L 195 0"  /></svg>
