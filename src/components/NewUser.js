@@ -35,14 +35,18 @@ class NewUser extends React.Component {
             <div  class="xContrasena20CaracteresMax"><span class="xContrasena20CaracteresMax-0">*</span><span class="xContrasena20CaracteresMax-1"> Contraseña (20 caracteres máx..)</span></div>
             <input type="text" id="address" name="address" class="rectangle63" required  minlength="1" maxlength="70"></input>
             <div  class="xDireccion70CaracteresMax"><span class="xDireccion70CaracteresMax-0">*</span><span class="xDireccion70CaracteresMax-1"> Dirección (70 caracteres máx..)</span></div>
-            <div  class="rectangle64"></div>
             <div class="xSeleccionarRolDelUsuario"><span class="xSeleccionarRolDelUsuario-0">*</span><span class="xSeleccionarRolDelUsuario-1"> Seleccionar rol del usuario</span></div>
-            <div class="administradora">Administrador(a)</div>
-            <svg preserveAspectRatio="none" viewBox="0 0 10 8.4210205078125" class="polygon1"><path d="M 4.999999523162842 0 L 10 8.421052932739258 L 0 8.421052932739258 Z"  /></svg>
-            <div  class="rectangle65"></div>
+            <select id="role" name="role" form="roleform" class="rectangle64">
+            <option value="admin">Administrador</option>
+            <option value="user">Usuario</option>
+            
+            </select>          
             <div class="xSeleccionarElEstadoDelUsuario"><span class="xSeleccionarElEstadoDelUsuario-0">*</span><span class="xSeleccionarElEstadoDelUsuario-1"> Seleccionar el estado del usuario</span></div>
-            <div class="activo">Activo</div>
-            <svg  preserveAspectRatio="none" viewBox="0 0 10 8.4210205078125" class="polygon3"><path d="M 4.999999523162842 0 L 10 8.421052932739258 L 0 8.421052932739258 Z"  /></svg>
+            <select id="status" name="status" form="statusform" class="rectangle65">
+            <option value="admin">Activo</option>
+            <option value="user">Inactivo</option>
+            
+            </select>        
             <button class="buttong">Guardar</button>
             <button class="buttonc">Cancelar</button>
 </div>
