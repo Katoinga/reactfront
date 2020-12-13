@@ -2,7 +2,7 @@ import React  from 'react';
 import './styles/NewUser.css';
 import logoImage from '../images/logo.png'
 
-class NewUser extends React.Component {
+class EditUser extends React.Component {
   render() {
     return (
       
@@ -55,4 +55,4 @@ class NewUser extends React.Component {
   }
 }
 
-export default NewUser
+export default EditUser
