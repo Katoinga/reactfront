@@ -4,4 +4,4 @@ import App from './App.js'
 import EditUser from './components/EditUser.js';
 const container = document.getElementById('root');
 
-ReactDOM.render(<EditUser/>, container);
+ReactDOM.render(<EditUser nombres="sdfds"/>, container);
