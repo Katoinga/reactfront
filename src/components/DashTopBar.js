@@ -12,7 +12,7 @@ class DashTopBar extends React.Component {
       imagePerfil : props.imagePerfil,
       name : props.name,
       role : props.role,
-      hour : props.hour
+      hour : Date().toLocaleString({ dateStyle: "short", timeStyle:"short",timeZoneName:"short", timeZone:false })
     }
   }
 

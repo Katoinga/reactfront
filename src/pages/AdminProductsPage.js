@@ -1,6 +1,7 @@
 import React from 'react';
 import DashSidebar from '../components/DashSidebar.js';
 import DashTopBar from '../components/DashTopBar.js';
+import CategoriesDisplay from '../components/CategoriesDisplay.js';
 
 class AdminProductsPage extends React.Component {
   render() {
@@ -11,9 +12,9 @@ class AdminProductsPage extends React.Component {
                       color3="boton"
                       color4="boton"
                       color5="boton"
-                      /> 
+                      />
         <DashTopBar color="selectbutton-yellow"/>
-
+        <CategoriesDisplay/>
       </div>
     )
   }
