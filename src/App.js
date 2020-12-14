@@ -7,6 +7,8 @@ import AdminProductsPage from './pages/AdminProductsPage.js';
 import AdminPersonalPage from './pages/AdminPersonalPage.js';
 import AdminEstadisticasPage from './pages/AdminEstadisticasPage.js';
 import AdminEditarCuPage from './pages/AdminEditarCuPage.js';
+import CocinaPedidos from './pages/CocinaPedidos.js';
+import CocinaProductos from './pages/CocinaProductos.js';
 
 
 function App(){
@@ -20,6 +22,8 @@ function App(){
         <Route exact path="/admin/personal" component={AdminPersonalPage}/>
         <Route exact path="/admin/estadisticas" component={AdminEstadisticasPage}/>
         <Route exact path="/admin/editar-cuenta" component={AdminEditarCuPage}/>
+        <Route exact path="/cocina/pedidos" component={CocinaPedidos}/>
+        <Route exact path="/cocina/productos" component={CocinaProductos}/>
 
       </Switch>
     </BrowserRouter>
