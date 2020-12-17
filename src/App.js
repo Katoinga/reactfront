@@ -12,6 +12,12 @@ import CocinaProductos from './pages/CocinaProductos.js';
 import CajeroComprobante from './pages/CajeroComprobante.js';
 import NewComprob from './pages/NewComprob.js';
 import NewComprob2 from './pages/NewComprob2.js';
+import AddProduct from './pages/AddProduct.js';
+import AddUser from './pages/AddUser.js';
+import EditUsers from './pages/EditUsers.js';
+import EditProducts from './pages/EditProducts.js';
+import AddCategory from './pages/AddCategory.js';
+import EditCategorys from './pages/EditCategorys.js';
 
 
 function App(){
@@ -31,7 +37,12 @@ function App(){
         <Route exact path="/cajero/comprobante" component={CajeroComprobante}/>
         <Route exact path="/cajero/newcomprobante" component={NewComprob}/>
         <Route exact path="/cajero/newcomprobante2" component={NewComprob2}/>
-
+        <Route exact path="/admin/products/add" component={AddProduct}/>
+        <Route exact path="/admin/products/edit" component={EditProducts}/>
+        <Route exact path="/admin/add-user" component={AddUser}/>
+        <Route exact path="/admin/edit-user" component={EditUsers}/>
+        <Route exact path="/admin/add-category" component={AddCategory}/>
+        <Route exact path="/admin/edit-category" component={EditCategorys}/>
       </Switch>
     </BrowserRouter>
   )
