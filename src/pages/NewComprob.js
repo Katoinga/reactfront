@@ -1,10 +1,5 @@
 import React from 'react';
-
-import Comanda from '../components/Comanda.js';
-import CajeroRecords from '../components/CajeroRecords.js';
-import CajeroTopBar from '../components/CajeroTopBar.js';
-import CajeroGenerarComprobantes from '../components/CajeroGenerarComprobantes.js';
-import NewComprobante from '../components/NewComprobante';
+import NewComprobante from '../components/NewComprobante.js';
 class NewComprob extends React.Component {
   render() {
     return (

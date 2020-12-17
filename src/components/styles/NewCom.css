@@ -5,7 +5,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modalBg {
+.adminPersonalNuevoUsuario .modeloBg {
   position: absolute;
     box-sizing: border-box;
     -ms-transform: rotate(0.00deg);
@@ -49,7 +49,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal {
+.adminPersonalNuevoUsuario .modelo {
 
     display: block;
     position: absolute;
@@ -80,7 +80,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .path8 {
+.adminPersonalNuevoUsuario .modelo .path8 {
   position: absolute;
     box-sizing: border-box;
     -ms-transform: rotate(0.00deg);
@@ -111,7 +111,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .modalHeader {
+.adminPersonalNuevoUsuario .modelo .modeloHeader {
 
     display: block;
     position: absolute;
@@ -142,7 +142,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .modalHeader .personal {
+.adminPersonalNuevoUsuario .modelo .modeloHeader .personal {
   position: absolute;
     box-sizing: content-box;
     -ms-transform: rotate(0.00deg);
@@ -182,7 +182,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .modalHeader .completaElFormularioConLosDatosSolicitados {
+.adminPersonalNuevoUsuario .modelo .modeloHeader .completaElFormularioConLosDatosSolicitados {
   position: absolute;
     box-sizing: content-box;
     -ms-transform: rotate(0.00deg);
@@ -222,7 +222,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .modalHeader .divider {
+.adminPersonalNuevoUsuario .modelo .modeloHeader .divider {
   position: absolute;
     box-sizing: content-box;
     -ms-transform: rotate(0.00deg);
@@ -253,7 +253,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .imagePicker {
+.adminPersonalNuevoUsuario .modelo .imagePicker {
 
     display: block;
     position: absolute;
@@ -284,7 +284,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .imagePicker .seleccionaUnaFotoParaElUsuario {
+.adminPersonalNuevoUsuario .modelo .imagePicker .seleccionaUnaFotoParaElUsuario {
   position: absolute;
     box-sizing: content-box;
     -ms-transform: rotate(0.00deg);
@@ -324,7 +324,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .imagePicker .rectangle48 {
+.adminPersonalNuevoUsuario .modelo .imagePicker .rectangle48 {
   position: absolute;
     box-sizing: border-box;
     -ms-transform: rotate(0.00deg);
@@ -368,7 +368,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .imagePicker .nopathCopia6 {
+.adminPersonalNuevoUsuario .modelo .imagePicker .nopathCopia6 {
   position: absolute;
     box-sizing: border-box;
     -ms-transform: rotate(0.00deg);
@@ -416,7 +416,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .imagePicker .buttonselect {
+.adminPersonalNuevoUsuario .modelo .imagePicker .buttonselect {
   position: absolute;
     box-sizing: border-box;
     -ms-transform: rotate(0.00deg);
@@ -466,7 +466,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .imagePicker .sueltaElArchivoAqui {
+.adminPersonalNuevoUsuario .modelo .imagePicker .sueltaElArchivoAqui {
   position: absolute;
     box-sizing: content-box;
     -ms-transform: rotate(0.00deg);
@@ -506,7 +506,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .imagePicker .oBuscaloDesdeElExploradorDeArchivos {
+.adminPersonalNuevoUsuario .modelo .imagePicker .oBuscaloDesdeElExploradorDeArchivos {
   position: absolute;
     box-sizing: content-box;
     -ms-transform: rotate(0.00deg);
@@ -546,7 +546,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .imagePicker .seleccionar {
+.adminPersonalNuevoUsuario .modelo .imagePicker .seleccionar {
   position: absolute;
     box-sizing: content-box;
     -ms-transform: rotate(0.00deg);
@@ -586,7 +586,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .rectangle46 {
+.adminPersonalNuevoUsuario .modelo .rectangle46 {
   position: absolute;
     box-sizing: border-box;
     -ms-transform: rotate(0.00deg);
@@ -629,7 +629,7 @@
   top: 111.00px;
 
 }
-.adminPersonalNuevoUsuario .modal  .productos {
+.adminPersonalNuevoUsuario .modelo  .texto {
   position: absolute;
     box-sizing: content-box;
     -ms-transform: rotate(0.00deg);
@@ -668,7 +668,7 @@
   top: 350.00px;
 
 }
-.adminPersonalNuevoUsuario .modal  .productos-arr {
+.adminPersonalNuevoUsuario .modelo  .productos-arr {
   position: absolute;
     box-sizing: content-box;
     -ms-transform: rotate(0.00deg);
@@ -707,7 +707,7 @@
   top: 380.00px;
 
 }
-.adminPersonalNuevoUsuario .modal  .total {
+.adminPersonalNuevoUsuario .modelo  .total {
   position: absolute;
     box-sizing: content-box;
     -ms-transform: rotate(0.00deg);
@@ -746,7 +746,7 @@
   top: 590.00px;
 
 }
-.adminPersonalNuevoUsuario .modal .total-dinero {
+.adminPersonalNuevoUsuario .modelo .total-dinero {
   position: absolute;
     box-sizing: content-box;
     -ms-transform: rotate(0.00deg);
@@ -785,7 +785,7 @@
   top: 590.00px;
 
 }
-.adminPersonalNuevoUsuario .modal .xNombres50CaracteresMax {
+.adminPersonalNuevoUsuario .modelo .comprobnt {
   position: absolute;
     box-sizing: content-box;
     -ms-transform: rotate(0.00deg);
@@ -825,7 +825,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .xNombres50CaracteresMax .xNombres50CaracteresMax-0 {
+.adminPersonalNuevoUsuario .modelo .comprobnt .comprobnt-0 {
   color: rgba(255, 0, 0, 1);
   font-weight: 400;
   font-style: normal;
@@ -835,7 +835,7 @@
   text-decoration: none;
 }
 
-.adminPersonalNuevoUsuario .modal .xNombres50CaracteresMax .xNombres50CaracteresMax-1 {
+.adminPersonalNuevoUsuario .modelo .comprobnt .comprobnt-1 {
   color: rgba(0, 0, 0, 1);
   font-weight: 400;
   font-style: normal;
@@ -845,7 +845,7 @@
   text-decoration: none;
 }
 
-.adminPersonalNuevoUsuario .modal .rectangle57 {
+.adminPersonalNuevoUsuario .modelo .rectangle57 {
   position: absolute;
     box-sizing: border-box;
     -ms-transform: rotate(0.00deg);
@@ -889,7 +889,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .xApellidoPaterno30CaracteresMax {
+.adminPersonalNuevoUsuario .modelo .nomcaj {
   position: absolute;
     box-sizing: content-box;
     -ms-transform: rotate(0.00deg);
@@ -929,7 +929,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .xApellidoPaterno30CaracteresMax .xApellidoPaterno30CaracteresMax-0 {
+.adminPersonalNuevoUsuario .modelo .nomcaj .nomcaj-0 {
   color: rgba(255, 0, 0, 1);
   font-weight: 400;
   font-style: normal;
@@ -939,7 +939,7 @@
   text-decoration: none;
 }
 
-.adminPersonalNuevoUsuario .modal .xApellidoPaterno30CaracteresMax .xApellidoPaterno30CaracteresMax-1 {
+.adminPersonalNuevoUsuario .modelo .nomcaj .nomcaj-1 {
   color: rgba(0, 0, 0, 1);
   font-weight: 400;
   font-style: normal;
@@ -949,7 +949,7 @@
   text-decoration: none;
 }
 
-.adminPersonalNuevoUsuario .modal .rectangle58 {
+.adminPersonalNuevoUsuario .modelo .texinp {
   position: absolute;
     box-sizing: border-box;
     -ms-transform: rotate(0.00deg);
@@ -993,7 +993,7 @@
   top: 229.00px;
 
 }
-.adminPersonalNuevoUsuario .modal .rectangle58t {
+.adminPersonalNuevoUsuario .modelo .rectangle58t {
   position: absolute;
     box-sizing: border-box;
     -ms-transform: rotate(0.00deg);
@@ -1043,7 +1043,7 @@
   top: 229.00px;
 
 }
-.adminPersonalNuevoUsuario .modal .xApellidoMaterno30CaracteresMax {
+.adminPersonalNuevoUsuario .modelo .matcaj {
   position: absolute;
     box-sizing: content-box;
     -ms-transform: rotate(0.00deg);
@@ -1083,7 +1083,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .xApellidoMaterno30CaracteresMax .xApellidoMaterno30CaracteresMax-0 {
+.adminPersonalNuevoUsuario .modelo .matcaj .matcaj-0 {
   color: rgba(255, 0, 0, 1);
   font-weight: 400;
   font-style: normal;
@@ -1093,7 +1093,7 @@
   text-decoration: none;
 }
 
-.adminPersonalNuevoUsuario .modal .xApellidoMaterno30CaracteresMax .xApellidoMaterno30CaracteresMax-1 {
+.adminPersonalNuevoUsuario .modelo .matcaj .matcaj-1 {
   color: rgba(0, 0, 0, 1);
   font-weight: 400;
   font-style: normal;
@@ -1103,7 +1103,7 @@
   text-decoration: none;
 }
 
-.adminPersonalNuevoUsuario .modal .rectangle59 {
+.adminPersonalNuevoUsuario .modelo .rectangle59 {
   position: absolute;
     box-sizing: border-box;
     -ms-transform: rotate(0.00deg);
@@ -1146,7 +1146,7 @@
   top: 291.00px;
 
 }
-.adminPersonalNuevoUsuario .modal .rectangle59t {
+.adminPersonalNuevoUsuario .modelo .rectangle59t {
   position: absolute;
     box-sizing: border-box;
     -ms-transform: rotate(0.00deg);
@@ -1196,7 +1196,7 @@
   top: 291.00px;
 
 }
-.adminPersonalNuevoUsuario .modal .xDni8Caracteres {
+.adminPersonalNuevoUsuario .modelo .xDni8Caracteres {
   position: absolute;
     box-sizing: content-box;
     -ms-transform: rotate(0.00deg);
@@ -1236,7 +1236,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .xDni8Caracteres .xDni8Caracteres-0 {
+.adminPersonalNuevoUsuario .modelo .xDni8Caracteres .xDni8Caracteres-0 {
   color: rgba(255, 0, 0, 1);
   font-weight: 400;
   font-style: normal;
@@ -1246,7 +1246,7 @@
   text-decoration: none;
 }
 
-.adminPersonalNuevoUsuario .modal .xDni8Caracteres .xDni8Caracteres-1 {
+.adminPersonalNuevoUsuario .modelo .xDni8Caracteres .xDni8Caracteres-1 {
   color: rgba(0, 0, 0, 1);
   font-weight: 400;
   font-style: normal;
@@ -1256,7 +1256,7 @@
   text-decoration: none;
 }
 
-.adminPersonalNuevoUsuario .modal .rectangle60 {
+.adminPersonalNuevoUsuario .modelo .rectangle60 {
   position: absolute;
     box-sizing: border-box;
     -ms-transform: rotate(0.00deg);
@@ -1300,7 +1300,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .rectangle60t {
+.adminPersonalNuevoUsuario .modelo .rectangle60t {
   position: absolute;
     box-sizing: border-box;
     -ms-transform: rotate(0.00deg);
@@ -1351,7 +1351,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .xNroCelular9Caracteres {
+.adminPersonalNuevoUsuario .modelo .xNroCelular9Caracteres {
   position: absolute;
     box-sizing: content-box;
     -ms-transform: rotate(0.00deg);
@@ -1391,7 +1391,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .xNroCelular9Caracteres .xNroCelular9Caracteres-0 {
+.adminPersonalNuevoUsuario .modelo .xNroCelular9Caracteres .xNroCelular9Caracteres-0 {
   color: rgba(255, 0, 0, 1);
   font-weight: 400;
   font-style: normal;
@@ -1401,7 +1401,7 @@
   text-decoration: none;
 }
 
-.adminPersonalNuevoUsuario .modal .xNroCelular9Caracteres .xNroCelular9Caracteres-1 {
+.adminPersonalNuevoUsuario .modelo .xNroCelular9Caracteres .xNroCelular9Caracteres-1 {
   color: rgba(0, 0, 0, 1);
   font-weight: 400;
   font-style: normal;
@@ -1411,7 +1411,7 @@
   text-decoration: none;
 }
 
-.adminPersonalNuevoUsuario .modal .rectangle61 {
+.adminPersonalNuevoUsuario .modelo .rectangle61 {
   position: absolute;
     box-sizing: border-box;
     -ms-transform: rotate(0.00deg);
@@ -1455,7 +1455,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .xContrasena20CaracteresMax {
+.adminPersonalNuevoUsuario .modelo .xContrasena20CaracteresMax {
   position: absolute;
     box-sizing: content-box;
     -ms-transform: rotate(0.00deg);
@@ -1495,7 +1495,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .xContrasena20CaracteresMax .xContrasena20CaracteresMax-0 {
+.adminPersonalNuevoUsuario .modelo .xContrasena20CaracteresMax .xContrasena20CaracteresMax-0 {
   color: rgba(255, 0, 0, 1);
   font-weight: 400;
   font-style: normal;
@@ -1505,7 +1505,7 @@
   text-decoration: none;
 }
 
-.adminPersonalNuevoUsuario .modal .xContrasena20CaracteresMax .xContrasena20CaracteresMax-1 {
+.adminPersonalNuevoUsuario .modelo .xContrasena20CaracteresMax .xContrasena20CaracteresMax-1 {
   color: rgba(0, 0, 0, 1);
   font-weight: 400;
   font-style: normal;
@@ -1515,7 +1515,7 @@
   text-decoration: none;
 }
 
-.adminPersonalNuevoUsuario .modal .rectangle63 {
+.adminPersonalNuevoUsuario .modelo .rectangle63 {
   position: absolute;
     box-sizing: border-box;
     -ms-transform: rotate(0.00deg);
@@ -1558,7 +1558,7 @@
   top: 291.00px;
 
 }
-.adminPersonalNuevoUsuario .modal .rectangle63t {
+.adminPersonalNuevoUsuario .modelo .rectangle63t {
   position: absolute;
     box-sizing: border-box;
     -ms-transform: rotate(0.00deg);
@@ -1609,7 +1609,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .xDireccion70CaracteresMax {
+.adminPersonalNuevoUsuario .modelo .xDireccion70CaracteresMax {
   position: absolute;
     box-sizing: content-box;
     -ms-transform: rotate(0.00deg);
@@ -1649,7 +1649,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .xDireccion70CaracteresMax .xDireccion70CaracteresMax-0 {
+.adminPersonalNuevoUsuario .modelo .xDireccion70CaracteresMax .xDireccion70CaracteresMax-0 {
   color: rgba(255, 0, 0, 1);
   font-weight: 400;
   font-style: normal;
@@ -1659,7 +1659,7 @@
   text-decoration: none;
 }
 
-.adminPersonalNuevoUsuario .modal .xDireccion70CaracteresMax .xDireccion70CaracteresMax-1 {
+.adminPersonalNuevoUsuario .modelo .xDireccion70CaracteresMax .xDireccion70CaracteresMax-1 {
   color: rgba(0, 0, 0, 1);
   font-weight: 400;
   font-style: normal;
@@ -1669,7 +1669,7 @@
   text-decoration: none;
 }
 
-.adminPersonalNuevoUsuario .modal .rectangle64 {
+.adminPersonalNuevoUsuario .modelo .rectangle64 {
   position: absolute;
     box-sizing: border-box;
     -ms-transform: rotate(0.00deg);
@@ -1713,7 +1713,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .xSeleccionarRolDelUsuario {
+.adminPersonalNuevoUsuario .modelo .xSeleccionarRolDelUsuario {
   position: absolute;
     box-sizing: content-box;
     -ms-transform: rotate(0.00deg);
@@ -1753,7 +1753,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .xSeleccionarRolDelUsuario .xSeleccionarRolDelUsuario-0 {
+.adminPersonalNuevoUsuario .modelo .xSeleccionarRolDelUsuario .xSeleccionarRolDelUsuario-0 {
   color: rgba(255, 0, 0, 1);
   font-weight: 400;
   font-style: normal;
@@ -1763,7 +1763,7 @@
   text-decoration: none;
 }
 
-.adminPersonalNuevoUsuario .modal .xSeleccionarRolDelUsuario .xSeleccionarRolDelUsuario-1 {
+.adminPersonalNuevoUsuario .modelo .xSeleccionarRolDelUsuario .xSeleccionarRolDelUsuario-1 {
   color: rgba(0, 0, 0, 1);
   font-weight: 400;
   font-style: normal;
@@ -1773,7 +1773,7 @@
   text-decoration: none;
 }
 
-.adminPersonalNuevoUsuario .modal .administradora {
+.adminPersonalNuevoUsuario .modelo .administradora {
   position: absolute;
     box-sizing: content-box;
     -ms-transform: rotate(0.00deg);
@@ -1813,7 +1813,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .polygon1 {
+.adminPersonalNuevoUsuario .modelo .polygon1 {
   position: absolute;
     box-sizing: content-box;
     -ms-transform: rotate(180.00deg);
@@ -1841,7 +1841,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .rectangle65 {
+.adminPersonalNuevoUsuario .modelo .rectangle65 {
   position: absolute;
     box-sizing: border-box;
     -ms-transform: rotate(0.00deg);
@@ -1885,7 +1885,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .xSeleccionarElEstadoDelUsuario {
+.adminPersonalNuevoUsuario .modelo .xSeleccionarElEstadoDelUsuario {
   position: absolute;
     box-sizing: content-box;
     -ms-transform: rotate(0.00deg);
@@ -1925,7 +1925,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .xSeleccionarElEstadoDelUsuario .xSeleccionarElEstadoDelUsuario-0 {
+.adminPersonalNuevoUsuario .modelo .xSeleccionarElEstadoDelUsuario .xSeleccionarElEstadoDelUsuario-0 {
   color: rgba(255, 0, 0, 1);
   font-weight: 400;
   font-style: normal;
@@ -1935,7 +1935,7 @@
   text-decoration: none;
 }
 
-.adminPersonalNuevoUsuario .modal .xSeleccionarElEstadoDelUsuario .xSeleccionarElEstadoDelUsuario-1 {
+.adminPersonalNuevoUsuario .modelo .xSeleccionarElEstadoDelUsuario .xSeleccionarElEstadoDelUsuario-1 {
   color: rgba(0, 0, 0, 1);
   font-weight: 400;
   font-style: normal;
@@ -1945,7 +1945,7 @@
   text-decoration: none;
 }
 
-.adminPersonalNuevoUsuario .modal .activo {
+.adminPersonalNuevoUsuario .modelo .activo {
   position: absolute;
     box-sizing: content-box;
     -ms-transform: rotate(0.00deg);
@@ -1985,7 +1985,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .polygon3 {
+.adminPersonalNuevoUsuario .modelo .polygon3 {
   position: absolute;
     box-sizing: content-box;
     -ms-transform: rotate(180.00deg);
@@ -2013,7 +2013,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .buttong {
+.adminPersonalNuevoUsuario .modelo .buttone {
   position: absolute;
     box-sizing: content-box;
     -ms-transform: rotate(0.00deg);
@@ -2063,7 +2063,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .guardar {
+.adminPersonalNuevoUsuario .modelo .guardar {
   position: absolute;
     box-sizing: content-box;
     -ms-transform: rotate(0.00deg);
@@ -2103,7 +2103,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .buttonc {
+.adminPersonalNuevoUsuario .modelo .buttona {
   position: absolute;
     box-sizing: content-box;
     -ms-transform: rotate(0.00deg);
@@ -2128,7 +2128,7 @@
     font-weight: 700;
   font-style: normal;
     font-family: Nunito, Arial;
-    background-color: rgba(255, 112, 112, 1);
+    background-color: rgb(233, 134, 134);
     border-bottom-color: rgba(34, 132, 230, 1);
     border-bottom-style: none;
     border-bottom-width: 1.00px;
@@ -2153,7 +2153,7 @@
 
 }
 
-.adminPersonalNuevoUsuario .modal .cancelar {
+.adminPersonalNuevoUsuario .modelo .cancelar {
   position: absolute;
     box-sizing: content-box;
     -ms-transform: rotate(0.00deg);
