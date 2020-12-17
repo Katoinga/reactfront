@@ -2,6 +2,7 @@ import React from 'react';
 import DashSidebar from '../components/DashSidebar.js';
 import DashTopBar from '../components/DashTopBar.js';
 import CategoriesDisplay from '../components/CategoriesDisplay.js';
+import ProductsData from '../components/ProductsData.js';
 
 class AdminProductsPage extends React.Component {
   render() {
@@ -15,6 +16,7 @@ class AdminProductsPage extends React.Component {
                       />
         <DashTopBar color="selectbutton-yellow"/>
         <CategoriesDisplay/>
+        <ProductsData/>
       </div>
     )
   }
