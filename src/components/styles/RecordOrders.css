@@ -10,6 +10,11 @@
     -webkit-transform-origin: center;
     transform-origin: center;
       opacity: 1;
+      font-size: 10.00px;
+    font-weight: 700;
+  font-style: normal;
+    font-family: Nunito, Arial;
+    text-decoration: none;
       cursor: default;
       margin-top: 0.00px;
       margin-right: 0.00px;
