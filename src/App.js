@@ -22,6 +22,7 @@ function App(){
         <Route exact path="/admin/personal" component={AdminPersonalPage}/>
         <Route exact path="/admin/estadisticas" component={AdminEstadisticasPage}/>
         <Route exact path="/admin/editar-cuenta" component={AdminEditarCuPage}/>
+        <Route exact path="/cocina/login" component={LoginPage}/>
         <Route exact path="/cocina/pedidos" component={CocinaPedidos}/>
         <Route exact path="/cocina/productos" component={CocinaProductos}/>
 

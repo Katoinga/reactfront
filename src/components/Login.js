@@ -15,9 +15,7 @@ class Login extends React.Component {
           <input type="text"></input><br></br>
           <label>* Contraseña</label><br></br>
           <input type="password"></input><br></br>
-          <Link to="/admin/dashboard">
           <button className="loginButton">INGRESAR</button>
-          </Link>
         </form>
       </div>
     )
