@@ -10,6 +10,8 @@ import AdminEditarCuPage from './pages/AdminEditarCuPage.js';
 import CocinaPedidos from './pages/CocinaPedidos.js';
 import CocinaProductos from './pages/CocinaProductos.js';
 import CajeroComprobante from './pages/CajeroComprobante.js';
+import NewComprob from './pages/NewComprob.js';
+import NewComprob2 from './pages/NewComprob2.js';
 
 
 function App(){
@@ -27,6 +29,8 @@ function App(){
         <Route exact path="/cocina/pedidos" component={CocinaPedidos}/>
         <Route exact path="/cocina/productos" component={CocinaProductos}/>
         <Route exact path="/cajero/comprobante" component={CajeroComprobante}/>
+        <Route exact path="/cajero/newcomprobante" component={NewComprob}/>
+        <Route exact path="/cajero/newcomprobante2" component={NewComprob2}/>
 
       </Switch>
     </BrowserRouter>
