@@ -13,6 +13,8 @@ class CocinaPedidos extends React.Component {
         <CocinaPreparacion/>
         <RecordOrders/>
         <Comanda/>
+        <Comanda/>
+        
       </div>
     )
   }
