@@ -9,6 +9,7 @@ import AdminEstadisticasPage from './pages/AdminEstadisticasPage.js';
 import AdminEditarCuPage from './pages/AdminEditarCuPage.js';
 import CocinaPedidos from './pages/CocinaPedidos.js';
 import CocinaProductos from './pages/CocinaProductos.js';
+import CajeroComprobante from './pages/CajeroComprobante.js';
 
 
 function App(){
@@ -25,6 +26,7 @@ function App(){
         <Route exact path="/cocina/login" component={LoginPage}/>
         <Route exact path="/cocina/pedidos" component={CocinaPedidos}/>
         <Route exact path="/cocina/productos" component={CocinaProductos}/>
+        <Route exact path="/cajero/comprobante" component={CajeroComprobante}/>
 
       </Switch>
     </BrowserRouter>
