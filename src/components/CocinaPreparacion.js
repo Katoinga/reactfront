@@ -23,20 +23,37 @@ class CocinaPreparacion extends React.Component {
           <label class="stext">Pedidos que ya se están preparando</label>
         </div>
         <div className="contComandas">
-          <Comanda/>
-          <Comanda/>
-          <Comanda/>
-          <Comanda/>
-          <Comanda/>
-          <Comanda/>
+        <Comanda classButton="preparacion"/>
+        <Comanda classButton="preparacion"/>
+        <Comanda classButton="preparacion"/>
+        <Comanda classButton="preparacion"/>
+        <Comanda classButton="preparacion"/>
+        <Comanda classButton="preparacion"/>
+        <Comanda classButton="preparacion"/>
+        <Comanda classButton="preparacion"/>
+        <Comanda classButton="preparacion"/>
+
         </div>
         <div className="contComandasPrep">
-          <Comanda/>
-          <Comanda/>
-          <Comanda/>
-          <Comanda/>
-          <Comanda/>
-          <Comanda/>
+        <Comanda classButton="listo"/>
+        <Comanda classButton="listo"/>
+        <Comanda classButton="listo"/>
+        <Comanda classButton="listo"/>
+        <Comanda classButton="listo"/>
+        <Comanda classButton="listo"/>
+        <Comanda classButton="listo"/>
+        <Comanda classButton="listo"/>
+        <Comanda classButton="listo"/>
+        <Comanda classButton="listo"/>
+        <Comanda classButton="listo"/>
+        <Comanda classButton="listo"/>
+        <Comanda classButton="listo"/>
+        <Comanda classButton="listo"/>
+        <Comanda classButton="listo"/>
+        <Comanda classButton="listo"/>
+        <Comanda classButton="listo"/>
+        <Comanda classButton="listo"/>
+
         </div>
       </div>
     )

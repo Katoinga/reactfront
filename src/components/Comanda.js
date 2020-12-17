@@ -14,7 +14,7 @@ class Comanda extends React.Component {
         "producto": "Pollo dorado"
       }
     ],
-      classButton : "preparacion"
+      classButton : props.classButton
     }
 
   }
