@@ -21,7 +21,7 @@ class Comanda extends React.Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="containerComanda">
         <p className="title">Comanda {this.state.nro}</p>
         <p className="mesa">Mesa {this.state.nroMesa}</p>
         <p className="mozo">Mozo {this.state.nameMozo}</p>

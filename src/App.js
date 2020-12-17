@@ -18,14 +18,14 @@ import EditUsers from './pages/EditUsers.js';
 import EditProducts from './pages/EditProducts.js';
 import AddCategory from './pages/AddCategory.js';
 import EditCategorys from './pages/EditCategorys.js';
-
+import NotFound from './components/NotFound.js';
 
 function App(){
 
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/admin/login" component={LoginPage}/>
+        <Route exact path="/login" component={LoginPage}/>
         <Route exact path="/admin/dashboard" component={AdminDashboardPage}/>
         <Route exact path="/admin/products" component={AdminProductsPage}/>
         <Route exact path="/admin/personal" component={AdminPersonalPage}/>
@@ -43,6 +43,7 @@ function App(){
         <Route exact path="/admin/edit-user" component={EditUsers}/>
         <Route exact path="/admin/add-category" component={AddCategory}/>
         <Route exact path="/admin/edit-category" component={EditCategorys}/>
+        <Route component={NotFound}/>
       </Switch>
     </BrowserRouter>
   )

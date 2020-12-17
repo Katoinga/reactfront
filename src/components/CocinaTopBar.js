@@ -9,20 +9,21 @@ class CocinaTopBar extends React.Component {
     super(props);
     this.state = {
       color : props.color,
-      
+      name : props.name,
+      role : props.role
     }
   }
 
   render(){
     return(
       <div  class="cocinaPedidos">
-      <div  class="topbar">            
+      <div  class="topbar">
       <div  class="header"></div>
       <Link to="/cocina/pedidos">
             <button class="boton-p">Pedidos</button>
       </Link>
-      
-            <div  class="userdata">                
+
+            <div  class="userdata">
             <svg preserveAspectRatio="none" viewBox="-0.75 -0.75 36.75 36.75" class="ellipse1">
               <defs>
                 <pattern id="img-ellipse1" patternContentUnits="userSpaceOnUse" width="100%" height="100%">
@@ -31,8 +32,8 @@ class CocinaTopBar extends React.Component {
                   </defs>
                   <path d="M 17.5 0 C 27.16498184204102 0 35 7.835017204284668 35 17.5 C 35 27.16498184204102 27.16498184204102 35 17.5 35 C 7.835017204284668 35 0 27.16498184204102 0 17.5 C 0 7.835017204284668 7.835017204284668 0 17.5 0 Z" fill="url(#img-ellipse1)" />
                   </svg>
-                <div  class="group4">    <div  class="username">Brayan Fernando Guillen Nakagawa</div>
-                    <div  class="role">Administrador</div>
+                <div  class="group4">    <div  class="username">{this.state.name}</div>
+                    <div  class="role">{this.state.role}</div>
 </div>
 </div>
             <div  class={this.state.color}></div>
