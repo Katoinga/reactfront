@@ -9,12 +9,92 @@ class CocinaPreparacion extends React.Component {
     super(props);
     this.state = {
       color : props.color,
-
+      data:[{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      }
+    ],
+    data2:[{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    }
+  ]
     }
   }
 
   render(){
-    const count = 0;
+    var count = 0;
+
     return(
       <div>
         <div  class="cocinaPedidos">
@@ -26,38 +106,30 @@ class CocinaPreparacion extends React.Component {
         <div className="contComandas">
         <table>
           <tr>
-            <th><Comanda classButton="preparacion"/></th>
-            <th><Comanda classButton="preparacion"/></th>
-            <th><Comanda classButton="preparacion"/></th>
+          {this.state.data.map((item) =>{
+            return(
+              <div>
+                <th><Comanda classButton={item.classButton}/></th>
+                <th><Comanda classButton={item.classButton}/></th>
+                <th><Comanda classButton={item.classButton}/></th>
+              </div>
+            )
+
+          })}
           </tr>
-          {count === 0
-            ? <p>one </p>
-            :  <p>two </p>
-            count = count +1;
-          }
         </table>
 
 
         </div>
         <div className="contComandasPrep">
-        <Comanda classButton="listo"/>
-        <Comanda classButton="listo"/>
-        <Comanda classButton="listo"/>
-        <Comanda classButton="listo"/>
-        <Comanda classButton="listo"/>
-        <Comanda classButton="listo"/>
-        <Comanda classButton="listo"/>
-        <Comanda classButton="listo"/>
-        <Comanda classButton="listo"/>
-        <Comanda classButton="listo"/>
-        <Comanda classButton="listo"/>
-        <Comanda classButton="listo"/>
-        <Comanda classButton="listo"/>
-        <Comanda classButton="listo"/>
-        <Comanda classButton="listo"/>
-        <Comanda classButton="listo"/>
-        <Comanda classButton="listo"/>
-        <Comanda classButton="listo"/>
+        {this.state.data2.map((item) =>{
+          return(
+            <div>
+              <th><Comanda classButton={item.classButton}/></th>
+            </div>
+          )
+
+        })}
 
         </div>
       </div>

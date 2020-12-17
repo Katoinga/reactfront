@@ -27,6 +27,7 @@
         padding-bottom: 0.00px;
         padding-left: 0.00px;
         overflow-x: scroll;
+        overflow-x: auto;
         background-color: transparent;
         width: 800.00px;
       height: 500.00px;

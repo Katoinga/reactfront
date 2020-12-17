@@ -9,16 +9,119 @@ class CajeroGenerarComprobantes extends React.Component {
     super(props);
     this.state = {
       color : props.color,
-      
+      data:[{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      },{
+        "classButton" : "preparacion"
+      }
+    ],
+    data2:[{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    },{
+      "classButton" : "listo"
+    }
+  ]
     }
   }
 
   render(){
+    var count = 0;
+
     return(
-      <div  class="cocinaPedidos">
-<label class="bitext">Generar Comprobantes</label>
-<label class="smtext">Acá aparecen los comprobantes en orden de llegada según es enviado por los mozos</label>
-</div>
+      <div>
+        <div  class="cocinaPedidos">
+          <label class="bitext">Generar coprobante</label>
+          <label class="smtext">Puedes clicar en elguno para generar comprobante</label>
+          
+        </div>
+        <div className="contComandas">
+        <table>
+          <tr>
+          {this.state.data.map((item) =>{
+            return(
+              <div>
+                <th><Comanda classButton={item.classButton}/></th>
+                <th><Comanda classButton={item.classButton}/></th>
+                <th><Comanda classButton={item.classButton}/></th>
+              </div>
+            )
+
+          })}
+          </tr>
+        </table>
+
+
+        </div>
+
+      </div>
     )
   }
 }
