@@ -23,12 +23,13 @@
       overflow-y: unset;
       background-color: transparent;
       width: 250.00px;
-    height: 230.00px;
-    left: 237.00px;
-    top: 165.00px;
+    
 
 }
+.container .container-comandas{
 
+  
+}
 .container .title{
       box-sizing: content-box;
       -ms-transform: rotate(0.00deg);

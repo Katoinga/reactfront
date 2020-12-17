@@ -12,8 +12,7 @@ class CocinaPedidos extends React.Component {
         <CocinaTopBar color="select-p"/>
         <CocinaPreparacion/>
         <RecordOrders/>
-        <Comanda/>
-        <Comanda/>
+        
         
       </div>
     )
