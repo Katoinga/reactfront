@@ -1,11 +1,69 @@
 .cocinaPedidos {
 
     display: block;
-    position: absolute;
     box-sizing: content-box;
-    
+
 
 }
+
+.contComandas{
+        display: block;
+        position: absolute;
+        box-sizing: content-box;
+        -ms-transform: rotate(0.00deg);
+      -webkit-transform: rotate(0.00deg);
+      transform: rotate(0.00deg);
+      -ms-transform-origin: center;
+      -webkit-transform-origin: center;
+      transform-origin: center;
+        opacity: 1;
+        cursor: default;
+        margin-top: 0.00px;
+        margin-right: 0.00px;
+        margin-bottom: 0.00px;
+        margin-left: 0.00px;
+        padding-top: 0.00px;
+        padding-right: 0.00px;
+        padding-bottom: 0.00px;
+        padding-left: 0.00px;
+        overflow-x: scroll;
+        background-color: transparent;
+        width: 800.00px;
+      height: 500.00px;
+      left: 250.00px;
+      top: 150.00px;
+
+}
+
+.contComandasPrep{
+        display: block;
+        position: absolute;
+        box-sizing: content-box;
+        -ms-transform: rotate(0.00deg);
+      -webkit-transform: rotate(0.00deg);
+      transform: rotate(0.00deg);
+      -ms-transform-origin: center;
+      -webkit-transform-origin: center;
+      transform-origin: center;
+        opacity: 1;
+        cursor: default;
+        margin-top: 0.00px;
+        margin-right: 0.00px;
+        margin-bottom: 0.00px;
+        margin-left: 0.00px;
+        padding-top: 0.00px;
+        padding-right: 0.00px;
+        padding-bottom: 0.00px;
+        padding-left: 0.00px;
+        overflow-x: scroll;
+        background-color: transparent;
+        width: 280.00px;
+      height: 500.00px;
+      left: 1080.00px;
+      top: 150.00px;
+
+}
+
 .cocinaPedidos .bitext {
   position: absolute;
     box-sizing: content-box;
@@ -317,7 +375,7 @@
     height: 44.00px;
     left: 200.00px;
     top: 0.00px;
-  
+
   }
 .cocinaPedidos .topbar .userdata {
 
@@ -619,7 +677,7 @@
     height: 5.00px;
     left: 200.00px;
     top: 45.00px;
-  
+
   }
 .cocinaPedidos .topbar .iconMaterialFeaturedPlayList {
   position: absolute;

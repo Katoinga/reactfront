@@ -14,7 +14,7 @@ class Comanda extends React.Component {
         "producto": "Pollo dorado"
       }
     ],
-      classButton : "listo"
+      classButton : "preparacion"
     }
 
   }
@@ -40,7 +40,7 @@ class Comanda extends React.Component {
             )
           })}
         </table>
-        <button className={this.state.classButton}>{this.state.classButton}</button>
+        <button className={this.state.classButton}>{this.state.classButton} </button>
       </div>
     )
   }
