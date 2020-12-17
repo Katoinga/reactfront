@@ -1,35 +1,21 @@
 .container {
 
       display: block;
-      position: absolute;
       box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
+      margin-top: 25.00px;
       margin-right: 0.00px;
       margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
+      margin-left: 5.00px;
       overflow-x: unset;
       overflow-y: unset;
       background-color: transparent;
-      width: 250.00px;
-    
-
+      width: 240.00px;
+      height:160px;
+      border-style: groove;
+      border-radius: 10px;
 }
-.container .container-comandas{
 
-  
-}
+
 .container .title{
       box-sizing: content-box;
       -ms-transform: rotate(0.00deg);
@@ -40,10 +26,10 @@
     transform-origin: center;
       opacity: 1;
       cursor: default;
-      margin-top: 0.00px;
+      margin-top: 5.00px;
       margin-right: 0.00px;
       margin-bottom: 0.00px;
-      margin-left: 0.00px;
+      margin-left: 5.00px;
       padding-top: 0.00px;
       padding-right: 0.00px;
       padding-bottom: 0.00px;
@@ -69,7 +55,6 @@
 }
 
 .container .mesa {
-    position: absolute;
       box-sizing: content-box;
       -ms-transform: rotate(0.00deg);
     -webkit-transform: rotate(0.00deg);
@@ -82,7 +67,7 @@
       margin-top: 0.00px;
       margin-right: 0.00px;
       margin-bottom: 0.00px;
-      margin-left: 0.00px;
+      margin-left: 5.00px;
       padding-top: 0.00px;
       padding-right: 0.00px;
       padding-bottom: 0.00px;
@@ -109,7 +94,6 @@
 }
 
 .container .mozo {
-    position: absolute;
       box-sizing: content-box;
       -ms-transform: rotate(0.00deg);
     -webkit-transform: rotate(0.00deg);
@@ -122,7 +106,7 @@
       margin-top: 0.00px;
       margin-right: 0.00px;
       margin-bottom: 0.00px;
-      margin-left: 0.00px;
+      margin-left: 5.00px;
       padding-top: 0.00px;
       padding-right: 0.00px;
       padding-bottom: 0.00px;
@@ -161,7 +145,7 @@
       margin-top: 0.00px;
       margin-right: 0.00px;
       margin-bottom: 0.00px;
-      margin-left: 0.00px;
+      margin-left: 5.00px;
       padding-top: 0.00px;
       padding-right: 0.00px;
       padding-bottom: 0.00px;
@@ -225,7 +209,6 @@
 }
 
 .container .preparacion {
-    position: absolute;
       box-sizing: content-box;
       -ms-transform: rotate(0.00deg);
     -webkit-transform: rotate(0.00deg);
@@ -238,7 +221,7 @@
       margin-top: 0.00px;
       margin-right: 0.00px;
       margin-bottom: 0.00px;
-      margin-left: 0.00px;
+      margin-left: 5.00px;
       padding-top: 0.00px;
       padding-right: 0.00px;
       padding-bottom: 0.00px;
@@ -262,6 +245,7 @@
       border-bottom-right-radius: 20.00px;
       box-shadow: none;
       color: white;
+      text-transform: uppercase;
       width: 235.00px;
     height: 30.00px;
     left: 7.00px;
@@ -270,7 +254,6 @@
 }
 
 .container .listo{
-  position: absolute;
       box-sizing: content-box;
       -ms-transform: rotate(0.00deg);
     -webkit-transform: rotate(0.00deg);
@@ -283,7 +266,7 @@
       margin-top: 0.00px;
       margin-right: 0.00px;
       margin-bottom: 0.00px;
-      margin-left: 0.00px;
+      margin-left: 5.00px;
       padding-top: 0.00px;
       padding-right: 0.00px;
       padding-bottom: 0.00px;
@@ -307,7 +290,7 @@
       border-bottom-right-radius: 20.00px;
       box-shadow: none;
       color: white;
-      
+text-transform: uppercase;
       width: 235.00px;
     height: 30.00px;
     left: 7.00px;
