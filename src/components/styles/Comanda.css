@@ -2,20 +2,14 @@
 
       display: block;
       box-sizing: content-box;
-      opacity: 1;
-      cursor: default;
       margin-top: 25.00px;
       margin-right: 0.00px;
       margin-bottom: 0.00px;
       margin-left: 5.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
       overflow-x: unset;
       overflow-y: unset;
       background-color: transparent;
-      width: 250.00px;
+      width: 240.00px;
       height:160px;
       border-style: groove;
       border-radius: 10px;

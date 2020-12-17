@@ -14,6 +14,7 @@ class CocinaPreparacion extends React.Component {
   }
 
   render(){
+    const count = 0;
     return(
       <div>
         <div  class="cocinaPedidos">
@@ -23,15 +24,19 @@ class CocinaPreparacion extends React.Component {
           <label class="stext">Pedidos que ya se están preparando</label>
         </div>
         <div className="contComandas">
-        <Comanda classButton="preparacion"/>
-        <Comanda classButton="preparacion"/>
-        <Comanda classButton="preparacion"/>
-        <Comanda classButton="preparacion"/>
-        <Comanda classButton="preparacion"/>
-        <Comanda classButton="preparacion"/>
-        <Comanda classButton="preparacion"/>
-        <Comanda classButton="preparacion"/>
-        <Comanda classButton="preparacion"/>
+        <table>
+          <tr>
+            <th><Comanda classButton="preparacion"/></th>
+            <th><Comanda classButton="preparacion"/></th>
+            <th><Comanda classButton="preparacion"/></th>
+          </tr>
+          {count === 0
+            ? <p>one </p>
+            :  <p>two </p>
+            count = count +1;
+          }
+        </table>
+
 
         </div>
         <div className="contComandasPrep">
