@@ -23,10 +23,10 @@ class NewProduct extends React.Component {
             <p class="sueltaElArchivoAqui">Suelta el archivo aqui</p>
             <p class="oBuscaloDesdeElExploradorDeArchivos">ó búscalo desde el explorador de archivos</p>
         </div>
-        <button class="cancelarButt">Cancelar</button>
-        <button class="guardarButt">Guardar</button>
+        
         <div class="xCategoriaDelProducto">
-          <span class="xCategoriaDelProducto-0">*</span><span class="xCategoriaDelProducto-1"> Categoria del producto</span>
+          <span class="xCategoriaDelProducto-0">*</span>
+          <span class="xCategoriaDelProducto-1"> Categoria del producto</span>
         </div>
         <select class="selectCat"></select>
         <div class="xPrecioVenta">
@@ -37,6 +37,8 @@ class NewProduct extends React.Component {
         <div class="xNombreDelProducto20CaracteresMax">
           <span class="xNombreDelProducto20CaracteresMax-0">*</span><span class="xNombreDelProducto20CaracteresMax-1"> Nombre del producto (20 caracteres máx..)</span>
         </div>
+        <button class="cancelarButt">Cancelar</button>
+        <button class="guardarButt">Guardar</button>
 </div>
     )
   }
