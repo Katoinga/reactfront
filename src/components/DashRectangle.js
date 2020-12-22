@@ -23,19 +23,19 @@ class DashRectangle extends React.Component {
         </div>
         <div className= "rectanglered">
         <h3>Ingresos de hoy</h3>
-        <h1>{this.state.ingresos}</h1>
+        <h1>{this.state.ingresos}150</h1>
         </div>
         <div className= "rectanglegreen">
         <h3>Efectivo en caja</h3>
-        <h1>{this.state.efectivo}</h1>
+        <h1>{this.state.efectivo}160</h1>
         </div>
         <div className= "rectangleorange">
         <h3>Productos en menú</h3>
-        <h1>{this.state.prodMenu}</h1>
+        <h1>{this.state.prodMenu}15</h1>
         </div>
         <div className= "rectanglecyan">
         <h3>Mesas ocupadas</h3>
-        <h1>{this.state.mesasOcupadas}</h1>
+        <h1>{this.state.mesasOcupadas}5</h1>
         </div>
 
 

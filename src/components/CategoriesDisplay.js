@@ -1,7 +1,7 @@
 import React from 'react';
 import Category from './Category';
 import './styles/CategoriesDisplay.css';
-
+import { Link } from 'react-router-dom';
 
 class CategoriesDisplay extends React.Component {
 
@@ -33,7 +33,7 @@ class CategoriesDisplay extends React.Component {
       ]
     }
   }
-  componentDidMount(){
+  componentWillMount(){
     this.fetchTasks()
   }
   
@@ -48,6 +48,7 @@ class CategoriesDisplay extends React.Component {
       })
     )
   }
+
   render() {
     return (
       <div className="containerCategories">
@@ -69,13 +70,20 @@ class CategoriesDisplay extends React.Component {
         </div>
         <div className="buttonNew">
           <img className="iconNewCategory"></img>
-          <button className="newCategory">Nueva Categoria</button>
+          <Link to="/admin/add-category">
+            <button className="newCategory">Nueva Categoria</button>
+          </Link>
+          
         </div>
         <div className="buttonEdit">
           <img className="iconEditCategory"></img>
-          <button className="editCategory">Editar Categoria</button>
+          <Link to="/admin/edit-category">
+            <button className="editCategory">Editar Categoria</button>
+          </Link>
+         
         </div>
       </div>
+      
     )
   }
 }
